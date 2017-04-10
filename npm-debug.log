@@ -1,0 +1,62 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'ngrok' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 verbose config Skipping project config: /Users/Emily/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData ngrok
+9 silly fetchOtherPackageData ngrok
+10 silly cache add args [ 'ngrok', null ]
+11 verbose cache add spec ngrok
+12 silly cache add parsed spec Result {
+12 silly cache add   raw: 'ngrok',
+12 silly cache add   scope: null,
+12 silly cache add   escapedName: 'ngrok',
+12 silly cache add   name: null,
+12 silly cache add   rawSpec: 'ngrok',
+12 silly cache add   spec: '/Users/Emily/Documents/Udacity/frontend-nanodegree-mobile-portfolio/ngrok',
+12 silly cache add   type: 'local' }
+13 silly addLocalTarball shasum (computed) 1ffc634ea274f5b67894805ad8b1f05086b81b77
+14 verbose addTmpTarball /Users/Emily/Documents/Udacity/frontend-nanodegree-mobile-portfolio/ngrok not in flight; adding
+15 verbose correctMkdir /Users/Emily/.npm correctMkdir not in flight; initializing
+16 verbose addTmpTarball validating metadata from /Users/Emily/Documents/Udacity/frontend-nanodegree-mobile-portfolio/ngrok
+17 verbose tar unpack /Users/Emily/Documents/Udacity/frontend-nanodegree-mobile-portfolio/ngrok
+18 verbose tar unpacking to /var/folders/vd/jmlxvybd66l2x8n0zgg277gm0000gn/T/npm-26711-31f70882/unpack-f848f4b1
+19 silly gentlyRm /var/folders/vd/jmlxvybd66l2x8n0zgg277gm0000gn/T/npm-26711-31f70882/unpack-f848f4b1 is being purged
+20 verbose gentlyRm don't care about contents; nuking /var/folders/vd/jmlxvybd66l2x8n0zgg277gm0000gn/T/npm-26711-31f70882/unpack-f848f4b1
+21 silly gunzTarPerm modes [ '755', '644' ]
+22 error not a package /Users/Emily/Documents/Udacity/frontend-nanodegree-mobile-portfolio/ngrok
+23 error addLocal Could not install /Users/Emily/Documents/Udacity/frontend-nanodegree-mobile-portfolio/ngrok
+24 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/var/folders/vd/jmlxvybd66l2x8n0zgg277gm0000gn/T/npm-26711-31f70882/unpack-f848f4b1/package.json'
+24 silly fetchPackageMetaData     at Error (native)
+24 silly fetchPackageMetaData  error for ngrok { Error: ENOENT: no such file or directory, open '/var/folders/vd/jmlxvybd66l2x8n0zgg277gm0000gn/T/npm-26711-31f70882/unpack-f848f4b1/package.json'
+24 silly fetchPackageMetaData     at Error (native)
+24 silly fetchPackageMetaData   errno: -2,
+24 silly fetchPackageMetaData   code: 'ENOENT',
+24 silly fetchPackageMetaData   syscall: 'open',
+24 silly fetchPackageMetaData   path: '/var/folders/vd/jmlxvybd66l2x8n0zgg277gm0000gn/T/npm-26711-31f70882/unpack-f848f4b1/package.json' }
+25 silly rollbackFailedOptional Starting
+26 silly rollbackFailedOptional Finishing
+27 silly runTopLevelLifecycles Finishing
+28 silly install printInstalled
+29 verbose stack Error: ENOENT: no such file or directory, open '/var/folders/vd/jmlxvybd66l2x8n0zgg277gm0000gn/T/npm-26711-31f70882/unpack-f848f4b1/package.json'
+29 verbose stack     at Error (native)
+30 verbose cwd /Users/Emily/Documents/Udacity/frontend-nanodegree-mobile-portfolio
+31 error Darwin 16.4.0
+32 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "ngrok"
+33 error node v6.9.5
+34 error npm  v3.10.10
+35 error path /var/folders/vd/jmlxvybd66l2x8n0zgg277gm0000gn/T/npm-26711-31f70882/unpack-f848f4b1/package.json
+36 error code ENOENT
+37 error errno -2
+38 error syscall open
+39 error enoent ENOENT: no such file or directory, open '/var/folders/vd/jmlxvybd66l2x8n0zgg277gm0000gn/T/npm-26711-31f70882/unpack-f848f4b1/package.json'
+40 error enoent ENOENT: no such file or directory, open '/var/folders/vd/jmlxvybd66l2x8n0zgg277gm0000gn/T/npm-26711-31f70882/unpack-f848f4b1/package.json'
+40 error enoent This is most likely not a problem with npm itself
+40 error enoent and is related to npm not being able to find a file.
+41 verbose exit [ -2, true ]

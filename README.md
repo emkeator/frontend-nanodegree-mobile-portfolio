@@ -1,3 +1,11 @@
+## My Updates:
+
+1. Scrolling at 60 fps: In views/main.js, I updated the updatePositions() function, so that rather than calling the document body selector to get the top of the scroll for every pizza in the for loop, it calls it outside and then uses that to calculate each pizza's update.
+
+2. Pizza resize: In main.js, I got rid of DetermineDx; rather than use the pixel calculations, I used percents and just created an if-else section that changes based on the update in the size.
+
+3. Page Score (index.html): I minified files, made javascript async.
+
 ## Website Performance Optimization portfolio project
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
@@ -32,7 +40,7 @@ Profile, optimize, measure... and then lather, rinse, and repeat. Good luck!
 
 #### Part 2: Optimize Frames per Second in pizza.html
 
-To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js. 
+To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js.
 
 You might find the FPS Counter/HUD Display useful in Chrome developer tools described here: [Chrome Dev Tools tips-and-tricks](https://developer.chrome.com/devtools/docs/tips-and-tricks).
 
