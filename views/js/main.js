@@ -433,7 +433,7 @@ var resizePizzas = function(size) {
       console.log("Invalid size, something is wrong in size record!")
     }
 
-    var randPizzas = document.getElementByClassName("randomPizzaContainer");
+    var randPizzas = document.getElementsByClassName("randomPizzaContainer");
 
     for (var i = 0; i < randPizzas.length; i++) {
       randPizzas[i].style.width = newWidth + "%";
